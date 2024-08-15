@@ -188,7 +188,7 @@ const Key = ({
     options?.rounded && type === "white-key" ? 15 : options?.rounded ? 8 : 0;
 
   return (
-    <g width={width} height={height}>
+    <g width={width} height={height} className="cursor-none">
       <rect
         className={`${type} ${active ? "active" : ""}`}
         width={width}
